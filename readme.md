@@ -36,7 +36,7 @@ We use LargeVis embedding (https://github.com/lferry007/LargeVis) to visualize t
 
     python visualize.embedding.py
     
-![2D embedding scatter plot](Examples/embeddings.png)  
+<p align="center"><img alt="2D embedding scatter plot" src="Examples/embeddings.png" width="650"> </p>
 
 Note: The embedding showed here is different from the paper because we are using a different random seed. 
 
