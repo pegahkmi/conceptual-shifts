@@ -2,7 +2,7 @@
 
 This repository contains the code for identifying and selecting conceptual shifts among sketch categories. 
 
-![Single Input and Single Output](Examples/SISO.png)
+<p align="center"><img alt="Single Input Single Output" src="Examples/SISO.png" width="650"> </p>
 *Examples of conceptual shifts results.*
 
 ## Preparing the data
@@ -77,7 +77,7 @@ For max_num_cs =5, the results for bridge will be:
 ```
 [('27.832', ((1, 8), 'bridge', 'rainbow')), ('30.649', ((3, 1), 'bridge', 'beach')), ('33.531', ((3, 10), 'bridge', 'shark')), ('34.322', ((0, 3), 'bridge', 'church')), ('34.428', ((2, 16), 'bridge', 'roller-coaster'))]
 ```
-![Multiple Inputs and Multiple Outputs](Examples/MIMO.png)
+<p align="center"><img alt="Multiple Input Multiple Output" src="Examples/MIMO.png" width="650"> </p>
 
 If you find this project useful, please cite it as:
 
