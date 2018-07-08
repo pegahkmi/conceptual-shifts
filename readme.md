@@ -2,7 +2,8 @@
 
 This repository contains the code for identifying and selecting conceptual shifts among sketch categories. 
 
-<p align="center"><img alt="Single Input Single Output" src="Examples/SISO.png" width="650"> </p>
+<p align="center"><img alt="Single Input Single Output" src="Examples/SISO.png" width="700"> </p>
+
 *Examples of conceptual shifts results.*
 
 ## Preparing the data
