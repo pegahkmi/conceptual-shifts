@@ -33,7 +33,7 @@ To employ the elbow method and apply the k-means algorithm for each category, us
     python elbow.py
     python kmeans.py   --features_path   features/features_bridge.npy   --num_clusters   15
 
-We use the LargeVis embedding (https://github.com/lferry007/LargeVis) to visualize the clusters in a 2D scatter plot. output-nose.txt is the generated output for nose category using a random seed. In order to see sketches of each cluster, use:
+We use the LargeVis embedding (https://github.com/lferry007/LargeVis) to visualize the clusters in a 2D scatter plot. nose-vec2D.txt is the generated output for nose category using a random seed. In order to see sketches of each cluster, use:
 
     python visualize.embedding.py
     
