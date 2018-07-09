@@ -26,14 +26,14 @@ To extract features for each category, use:
 
 ## Clustering
 
-Cluster the sketches of each category into different subcategories using k-means algorithm. To determine the number of clusters, K, use the elbow method and plot the explained variance versus the number of clusters. It is observed that for most categories the appropriate value for K is between 7 to 12.   
+We cluster the sketches of each category into different subcategories using a k-means algorithm. To determine the number of clusters, K, we use the elbow method and plot the explained variance versus the number of clusters. It is observed that for most categories the appropriate value for K is between 7 to 12.   
 
 To employ the elbow method and apply the k-means algorithm for each category, use:
 
     python elbow.py
     python kmeans.py   --features_path   features/features_bridge.npy   --num_clusters   15
 
-We use LargeVis embedding (https://github.com/lferry007/LargeVis) to visualize the clusters in a 2D scatter plot. Output-nose.txt is the generated output for nose category using a random seed. In order to see sketches of each cluster, use:
+We use the LargeVis embedding (https://github.com/lferry007/LargeVis) to visualize the clusters in a 2D scatter plot. output-nose.txt is the generated output for nose category using a random seed. In order to see sketches of each cluster, use:
 
     python visualize.embedding.py
     
