@@ -26,7 +26,7 @@ def load_image(prefix, i):
 
 
 # Scale and visualize the embedding vectors
-embedding = np.loadtxt('nose-output.txt')
+embedding = np.loadtxt('nose-vec2D.txt')
 embedding = embedding[1:]
 print(embedding.shape)
 
@@ -37,11 +37,11 @@ prefix = "nose/drawing"
 
 plt.figure()
 ax = plt.subplot(111)
-title ='LargeVis embedding of the sketches'
+title ='LargeVis embedding of the sketches for nose category'
 
 N = M = 0
 all_data = {}
-for i, line in enumerate(open('nose-output.txt')):
+for i, line in enumerate(open('nose-vec2D.txt')):
     vec = line.strip().split(' ')
     if i == 0:
         N = int(vec[0])
