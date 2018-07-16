@@ -14,7 +14,7 @@ The original data has 5 objects: key-id, countrycode, recognized, timestamp and 
 
 To generate the list of imags for a category, use:
 
-    python read.py  --class-name  bridge   --dataset_path  bin-files/full-binary-bridge.bin
+    python read.py  --class_name  bridge   --dataset_path  bin-files/full-binary-bridge.bin
 
 ## Extracting features
 
